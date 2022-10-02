@@ -15,6 +15,8 @@ from sklearn import preprocessing
 from PIL import Image
 from torch.nn.parallel import DataParallel as dp
 import os
+import sys
+sys.path.insert(1,'/dh-projects/ag-ishaque/analysis/projects/myproject/script')
 import gc
 import torchvision.transforms.functional as F
 from torch.utils.tensorboard import SummaryWriter

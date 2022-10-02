@@ -13,6 +13,8 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn import preprocessing
 from PIL import Image
 import os
+import sys
+sys.path.insert(1,'/dh-projects/ag-ishaque/analysis/projects/myproject/script')
 from config import params, AddGaussianNoise, CustomDataset_1
 print('found {} gpus.'.format(torch.cuda.device_count()))
 os.environ['CUDA_VISIBLE_DEVICES']="0,1,2,3,4,5,6,7"
@@ -20,7 +22,7 @@ os.environ['CUDA_VISIBLE_DEVICES']="0,1,2,3,4,5,6,7"
 
  #####data processing phase:
 root='/dh-projects/ag-ishaque/analysis/zhur/keep_1_5000_1200'
-df_path='/dh-projects/ag-ishaque/analysis/zhur/keep_1_5000_1200_file_info.csv' 
+df_path='/dh-projects/ag-ishaque/analysis/zhur/keep_1_5000_1200_file_info.csv'
 df=pd.read_scv(df_path)
 
 ###calculate mean and std

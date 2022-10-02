@@ -6,7 +6,7 @@ from PIL import Image
 import pandas as pd
 import sys
 #sys.path.append("/home/zhur")
-sys.path.insert(1, '/home/zhur')
+sys.path.insert(1,'/dh-projects/ag-ishaque/analysis/projects/myproject/script')
 import torch
 from torchvision import datasets, models, transforms
 import torch.nn as nn

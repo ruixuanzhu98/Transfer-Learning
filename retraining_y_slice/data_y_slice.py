@@ -5,7 +5,10 @@ import pandas as pd
 import numpy as np
 from scipy.ndimage import gaussian_filter
 import os
+import sys
+sys.path.insert(1,'/dh-projects/ag-ishaque/analysis/projects/myproject/script/preprocessing')
 from filter_function import condition
+
 
 df_raw=pd.read_csv('/dh-projects/ag-ishaque/analysis/projects/HE_tran-ISS/application-data/coordinates-rescaled.csv')
 df_new=df_raw.copy()
