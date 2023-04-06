@@ -1,4 +1,4 @@
-# H&E staining-ISS project: transfer learning in spatial transcriptomics
+# H&E staining-ISS project: Transfer  Leaning  Using  Statistical  Learning  Architectures on Tissue Morphology Data
 
 ## script structure:
 
