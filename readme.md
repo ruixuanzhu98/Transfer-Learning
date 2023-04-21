@@ -1,6 +1,6 @@
-# H&E staining-ISS project: Transfer  Learning  Using  Deep  Learning  Architectures on Tissue Morphology Data
+# H&E Staining-ISS project: Transfer  Learning  Using  Deep  Learning  Architectures on Tissue Morphology Data
 
-## script structure:
+## Script Structure:
 
 ```
 .
@@ -22,7 +22,7 @@
     ├── retraining_y_slice.py
     └── test_map_y_slice.py
 ```
-
+---
 ### A brief introduction:
 
 **Please note that the paths included the scripts should be adjusted!**
@@ -64,8 +64,11 @@ test_map_x_slice.py
 test_map_y_slice.py
 plot.py
 ```
+---
+**Accurancy in the pre-training phase**:
 
+![acc_train_and_val](https://user-images.githubusercontent.com/110237197/233746077-858dfa99-6607-40fa-a7f8-d33074059dfd.jpg)
 
+**Example of one predicted expression-mapping image**:
 
-​      
-
+![BACH2](https://user-images.githubusercontent.com/110237197/233746776-96b20913-358f-47ae-8b43-eb0d9f4b3d9c.jpg)
